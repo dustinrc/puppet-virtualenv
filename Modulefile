@@ -1,5 +1,5 @@
 name    'dustinrc-virtualenv'
-version '0.1.0'
+version '0.2.0'
 source 'git://github.com/dustinrc/puppet-virtualenv.git'
 author 'Dustin Chapman'
 license 'Apache License, Version 2.0'
