@@ -1,8 +1,18 @@
 # virtualenv Puppet Module
 
-virtualenv is a tool to create isolated Python environments. This module
-handles installing virtualenv across a range of operating systems and
-distributions.
+[virtualenv](http://www.virtualenv.org) is a tool to create isolated
+[Python](http://python.org) environments. This module handles installing
+virtualenv across a range of operating systems and distributions.
+
+## Installation
+
+This module is available on [Puppet Forge](https://forge.puppetlabs.com) as
+[dustinrc/virtualenv](https://forge.puppetlabs.com/dustinrc/virtualenv).
+Install with the Puppet Module Tool:
+
+```
+# puppet module install dustinrc/virtualenv
+```
 
 ## Usage
 
