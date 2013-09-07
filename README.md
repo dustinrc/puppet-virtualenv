@@ -12,6 +12,14 @@ Simple, just
 include virtualenv
 ```
 
+or
+
+```puppet
+class { 'virtualenv':
+  package_ensure => latest
+}
+```
+
 ## License
 
 Apache License, Version 2.0. Please see the **LICENSE** file for details.
