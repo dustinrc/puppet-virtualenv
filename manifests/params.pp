@@ -4,10 +4,7 @@ class virtualenv::params {
 
   case $::osfamily {
     'Archlinux': {
-      $package_name    = [
-                           'extra/python-virtualenv',
-                           'extra/python2-virtualenv',
-                         ]
+      $package_name    = [ 'extra/python-virtualenv', 'extra/python2-virtualenv' ]
     }
     'Debian': {
       $package_name    = 'python-virtualenv'
