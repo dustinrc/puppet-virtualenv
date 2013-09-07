@@ -3,6 +3,12 @@ class virtualenv::params {
   $package_ensure      = 'present'
 
   case $::osfamily {
+    'Archlinux': {
+      $package_name    = [
+                           'extra/python-virtualenv',
+                           'extra/python2-virtualenv',
+                         ]
+    }
     'Debian': {
       $package_name    = 'python-virtualenv'
     }
